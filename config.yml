@@ -1,0 +1,85 @@
+baseurl: "https://ijcnn2023.gitlab.io//"
+title: "Conference name"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "Human-in-the-loop : Algorithms and System Designs"
+  Description: "The human-in-the-loop (HIL) terms can be used in different ways in different research fields. Human-in-the-loop learning algorithms refer to algorithms that include human feedback into the training loop of the machine learning models to improve the quality of training and to augment the functions of the model. In the hardware applications, the human-in-the-loop learning devices or robots refer to the skill transfer skills from the users to the robots, where a human’s skills could be actively learnt by the robots’ model to enhance its intelligence or skill levels in an active and autonomous way. In the system design and implementation processes, the “human-in-the-loop” refers to the active integration of human inputs with different physiological inputs, such as BCI. We can see the “human-in-the-loop” methodologies in different research scopes differ, but their central approach can be stay unified and the interdisciplinary research and development can be foreseen. The special session aims to reduce the gaps between the robotic systems’ techniques and settings and the users’ practical needs by the users’ inputs and optimization."
+  Date: "June 18 - June 23, 2023"
+  #Price: "Only $100" # If your event is free, just comment this line
+  Venue: "The Gold Coast Convention and Exhibition Centre"
+  Address: "Boulevard Kukulcan, 30 Gold Coast Highway in Broadbeach, Gold Coast"
+  City:  "Queensland"
+  State: "Australia"
+  Images: ["/img/badge.jpg"]
+  #GoogleMapsKey: "my-secret-maps-key"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - topic
+    - location
+    - speakers
+
+
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    topic: "Main topic"
+    location: "Location"
+    speakers: "Organizer"
+
+
+  about:
+    desc: "The human-in-the-loop (HIL) terms can be used in different ways in different research fields. Human-in-the-loop learning algorithms refer to algorithms that include human feedback into the training loop of the machine learning models to improve the quality of training and to augment the functions of the model. In the hardware applications, the human-in-the-loop learning devices or robots refer to the skill transfer skills from the users to the robots, where a human’s skills could be actively learnt by the robots’ model to enhance its intelligence or skill levels in an active and autonomous way. In the system design and implementation processes, the “human-in-the-loop” refers to the active integration of human inputs with different physiological inputs, such as BCI. We can see the “human-in-the-loop” methodologies in different research scopes differ, but their central approach can be stay unified and the interdisciplinary research and development can be foreseen. The special session aims to reduce the gaps between the robotic systems’ techniques and settings and the users’ practical needs by the users’ inputs and optimization."
+
+  topic:
+    desc: "Themes of interest to this special session include, but are not limited to:"
+
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Register now!"
+    link: "https://edas.info/N30081"
+
+   # The entire schedule
+  Schedule:
+    - bio: "Dr Joni Zhong is a research assistant professor at The Hong Kong Polytechnic University. He graduated from the South China University of Technology (Guangzhou, China) with double bachelor’s degrees in control science and computer science. He then obtained his MPhil at The Hong Kong Polytechnic University (PolyU) and PhD at the University of Hamburg, Germany. Before returning to PolyU, he had been a researcher at the University of Hertfordshire (UK), the University of Plymouth (UK), Waseda University (Japan), the National Institute of Advanced Industrial Science and Technology (Japan), etc. Dr Zhong had received a 3-year Marie-Curie fellowship  for his PhD study. He had also received such awards as the Best Theory Paper at ICMIC 2017 and the Best Paper Nomination at Cyber 2019. He had organised a few special sessions and workshops at IEEE SMC 2020, IEEE ICDL-EpiRob 2020, ICIRA 2019, etc, and been a guest editor of several journals such as IEEE Transactions on Cognitive and Developmental Systems, Interaction Studies, Journal of Ambient Intelligence and Humanized Computing, etc. His research interests centre around assistive technologies based on wearable devices, IoT devices and robotics. Theoretically, he particularly advocates the involvement of a human in the learning loop (i.e. human-in-the-loop learning) and predictive modelling."
+      company: "The Hong Kong Polytechnic University"
+      link:
+        href: "https://jonizhong.weebly.com/"
+        text: "webpage"
+      presentation:
+        title: "Junpei Zhong"
+
+    - bio: "Dr. Ding Ding is an associate professor in the School of Computer Science and Engineering at Southeast University, China. He is also temporarily served as a Research Fellow at the Interactive Intelligence Group, Faculty Electrical Engineering, Mathematics and Computer Science of Delft University of Technology from January 01, 2020, till now. He received his Ph.D. degree from the Delft University of Technology, the Netherlands, and master’s and bachelor’s degrees both from the Southeast University, China. During his study, he visited Université du Québec en Outaouais and Grenoble INP as a visiting researcher. Dr. Ding has served as a reviewer for several journals or conferences such as CHI, VRST, DIS, Internet Research, etc. His research interests lie in human-computer interaction, interactive intelligence, and virtual reality."
+      company: "Southeast University"
+      link:
+        href: "https://dingdingseu.mystrikingly.com/"
+        text: "webpage"
+      presentation:
+        title: "Ding Ding"
+
+    - bio: "Dr. Francisco Cruz is a Lecturer in Cognitive Robotics at the Computer Science and Engineering School, UNSW Sydney, Australia. He received the bachelor’s degree in engineering and the master’s degree in computer engineering from the University of Santiago, Chile, in 2004 and 2006, respectively, and his PhD degree from the University of Hamburg, Germany, in 2017 working in developmental robotics with a focus on interactive reinforcement learning. In 2015 he was a Visiting Researcher within the Emergent Robotics Laboratory, Osaka University, Japan, and, in 2018, a Visiting Researcher within the Polytechnic School, University of Pernambuco, Brazil. He has been on the organizing committee of international conferences and workshops such as ICDL-EpiRob 2020, the Workshop on Bio-inspired Social Robot Learning in Home Scenarios at IROS 2016, the Workshop on Intelligent Assistive Computing at WCCI/IJCNN 2018, the Workshop of Human-aligned Reinforcement Learning for Autonomous Agents and Robots at ICDL 2021, and the Workshop of Autonomous Learning Agents (ALA) at AAMAS 2022 and 2023. Additionally, in 2017, he was a Guest Editor for the journal IEEE Transactions on Cognitive and Developmental Systems (TCDS) and currently he is a Guest Editor for the journal Springer Neural Computing and Applications. His current research interests include reinforcement learning, explainable artificial intelligence, human-robot interaction, artificial neural networks, and psychologically and bio-inspired models."
+      company: "New South Wales University"
+      link:
+        href: "https://franciscocruz.org/"
+        text: "webpage"
+      presentation:
+        title: "Francisco Cruz"
+
+    - bio: "Dr. Francisco Cruz is a Lecturer in Cognitive Robotics at the Computer Science and Engineering School, UNSW Sydney, Australia. He received the bachelor’s degree in engineering and the master’s degree in computer engineering from the University of Santiago, Chile, in 2004 and 2006, respectively, and his PhD degree from the University of Hamburg, Germany, in 2017 working in developmental robotics with a focus on interactive reinforcement learning. In 2015 he was a Visiting Researcher within the Emergent Robotics Laboratory, Osaka University, Japan, and, in 2018, a Visiting Researcher within the Polytechnic School, University of Pernambuco, Brazil. He has been on the organizing committee of international conferences and workshops such as ICDL-EpiRob 2020, the Workshop on Bio-inspired Social Robot Learning in Home Scenarios at IROS 2016, the Workshop on Intelligent Assistive Computing at WCCI/IJCNN 2018, the Workshop of Human-aligned Reinforcement Learning for Autonomous Agents and Robots at ICDL 2021, and the Workshop of Autonomous Learning Agents (ALA) at AAMAS 2022 and 2023. Additionally, in 2017, he was a Guest Editor for the journal IEEE Transactions on Cognitive and Developmental Systems (TCDS) and currently he is a Guest Editor for the journal Springer Neural Computing and Applications. His current research interests include reinforcement learning, explainable artificial intelligence, human-robot interaction, artificial neural networks, and psychologically and bio-inspired models."
+      company: "German Research Centre for Artificial Intelligence (NN)"
+      link:
+        href: "https://nicolas-navarro-guerrero.github.io/"
+        text: "webpage"
+      presentation:
+        title: "Nicolás Navarro-Guerrero"
+
