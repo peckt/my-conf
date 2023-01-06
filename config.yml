@@ -1,4 +1,4 @@
-baseurl: "https://ijcnn2023.gitlab.io//"
+baseurl: "https://ijcnn2023.gitlab.io/"
 title: "Conference name"
 canonifyurls: true
 theme: "hugo-conference"
